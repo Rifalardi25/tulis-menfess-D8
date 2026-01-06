@@ -6,6 +6,8 @@ CREATE TABLE IF NOT EXISTS menfess (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     -- TODO : Tambahkan kolom likes & dislikes di bawah ini --
     -- Clue: Gunakan tipe data INT dan DEFAULT 0 --
+    likes INT DEFAULT 0,
+    dislikes INT DEFAULT 0
 );
 
 -- Dummy Data (Biar pas pertama run ga kosong melompong)
